@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from 'next/image'
 import ContactButtons from "./ui/contact-buttons"
-import { motion, useInView } from "framer-motion"
+import { motion } from "framer-motion"
 import LearnMoreLink from "./ui/learn-more"
 
 

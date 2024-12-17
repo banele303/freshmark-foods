@@ -192,7 +192,7 @@ export default function AboutUs() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.4, delay: 1 + index * 0.1 }}
               >
-                <p className="text-lg mb-4">"{testimonial.feedback}"</p>
+                <p className="text-lg mb-4">&quot;{testimonial.feedback}&quot;</p>
                 <h3 className="font-semibold text-green-600">
                   - {testimonial.name}
                 </h3>

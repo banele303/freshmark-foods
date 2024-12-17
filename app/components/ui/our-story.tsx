@@ -52,14 +52,19 @@ export function OurStorySection() {
               Introduction to Freshmark Foods
             </motion.h2>
             <motion.p variants={childVariants} className="text-lg text-[#34495e] leading-relaxed">
-              Welcome to Freshmark Foods, we're passionate about delivering high-quality, sustainable food solutions that nourish our communities and protect the planet. With a commitment to innovation, customer satisfaction, and environmental stewardship, we've established ourselves as a trusted leader in the food industry.<br/><br/>
+              Welcome to Freshmark Foods, we&apos;re passionate about 
+              delivering high-quality, sustainable food solutions that
+               nourish our communities and protect the planet. With
+                a commitment to innovation, customer satisfaction, 
+                and environmental stewardship, we&apos;ve established
+                 ourselves as a trusted leader in the food industry.<br/><br/>
               Freshmark Foods has been at the forefront of the fresh produce industry since 1987. Our journey began with a simple yet powerful vision: to provide the freshest, highest quality fruits and vegetables to our customers.
             </motion.p>
             <motion.p 
               variants={childVariants}
               className="mt-4 text-lg text-[#34495e] leading-relaxed"
             >
-              Over the years, we've grown from a small local supplier to a national leader in fresh produce distribution, never losing sight of our commitment to quality, sustainability, and customer satisfaction.
+              Over the years, we&apos;ve grown from a small local supplier to a national leader in fresh produce distribution, never losing sight of our commitment to quality, sustainability, and customer satisfaction.
             </motion.p>
           </div>
           <motion.div

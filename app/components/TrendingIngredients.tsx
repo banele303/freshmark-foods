@@ -12,7 +12,7 @@ const ingredients = [
 ]
 
 const TrendingIngredients = () => {
-  const [hoveredIngredient, setHoveredIngredient] = useState(null)
+  const [hoveredIngredient ] = useState(null)
 
   return (
     <section className="py-16 bg-yellow-50">

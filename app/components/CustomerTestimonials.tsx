@@ -44,7 +44,7 @@ const CustomerTestimonials = () => {
               exit={{ opacity: 0, y: -50 }}
               className="absolute inset-0 flex flex-col items-center justify-center text-center"
             >
-              <p className="text-xl mb-4">"{testimonials[currentTestimonial].testimonial}"</p>
+              <p className="text-xl mb-4">&quot;{testimonials[currentTestimonial].testimonial}&quot;</p>
               <p className="font-semibold">{testimonials[currentTestimonial].name}</p>
               <p className="text-sm text-gray-600">{testimonials[currentTestimonial].company}</p>
             </motion.div>

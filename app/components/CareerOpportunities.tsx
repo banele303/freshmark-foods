@@ -25,7 +25,7 @@ const CareerOpportunities = () => {
                 selectedCategory === index ? 'bg-blue-500 text-white' : 'bg-white'
               }`}
               whileHover={{ scale: 1.05 }}
-              onClick={() => setSelectedCategory(selectedCategory === index ? null : index)}
+              
             >
               <h3 className="text-xl font-semibold mb-2">{category.name}</h3>
               <p>{category.count} open positions</p>
@@ -45,7 +45,7 @@ const CareerOpportunities = () => {
               </h3>
               <p className="text-gray-600 mb-4">
                 Explore exciting career opportunities in our {jobCategories[selectedCategory].name} department.
-                We're looking for talented individuals to join our team and make a difference.
+                We&apos;re looking for talented individuals to join our team and make a difference.
               </p>
               <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">
                 View Open Positions

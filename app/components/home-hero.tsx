@@ -63,7 +63,7 @@ export function HomeHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Brian Nash, VP of Corporate Sustainability, highlights Ingredion's commitment to sustainability through innovative solutions and strategic partnerships.
+Corporate Sustainability, highlights FreshMark&apos;s commitment to sustainability through innovative solutions and strategic partnerships.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
