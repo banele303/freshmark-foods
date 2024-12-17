@@ -183,14 +183,9 @@ export default function FeaturedProducts() {
                         {...createAnimationProps('left')}
                         className="text-3xl font-bold mb-4"
                     >
-                        Ready to Engineer Your Success?
+                        Ready to Engineer Your Food?
                     </motion.h2>
-                    <motion.p
-                        {...createAnimationProps('right')}
-                        className="text-xl mb-8"
-                    >
-                        Contact MODERN RENOVATOR today for innovative electrical and mechanical solutions.
-                    </motion.p>
+                    
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}

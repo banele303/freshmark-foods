@@ -18,7 +18,7 @@ export default function Home() {
      <FeaturedProducts/>
 
 <TrendingIngredients/>
-<ContactButtons/>
+{/* <ContactButtons/> */}
 <NewsSection/>
 <FAQ/>
 <Footer/>
