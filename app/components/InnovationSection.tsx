@@ -19,7 +19,7 @@ const innovations = [
 ]
 
 const InnovationSection = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null)
+  const [expandedIndex, ] = useState(null)
 
   return (
     <section className="py-16 bg-blue-50">

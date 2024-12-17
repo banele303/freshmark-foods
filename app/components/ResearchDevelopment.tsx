@@ -23,7 +23,7 @@ const researchAreas = [
 ]
 
 const ResearchDevelopment = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null)
+  const [expandedIndex,] = useState(null)
 
   return (
     <section className="py-16 bg-indigo-50">
