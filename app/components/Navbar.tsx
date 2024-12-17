@@ -97,7 +97,7 @@ export function Navbar() {
             {/* Phone Number - Desktop */}
             <div className="hidden lg:flex items-center gap-2">
               <Phone className="h-5 w-5" />
-              <span className="text-[17px]">+27 10 500 6454</span>
+              <span className="text-[17px]">+27 683 897 638</span>
             </div>
 
             {/* Mobile Menu */}

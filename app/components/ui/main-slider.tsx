@@ -86,7 +86,7 @@ const MainSlider = () => {
                    }}>
                   {slide.content}
                 </p>
-                <a href="tel: +27634582860" className="mt-4 inline-block bg-orange-500 text-white text-xl md:text-2xl font-bold py-3 px-6 rounded-sm shadow-lg hover:bg-green-600 transition-all duration-300">Call Us: +27 63 458 2860</a>
+                <a href="tel: +27683897638" className="mt-4 inline-block bg-orange-500 text-white text-xl md:text-2xl font-bold py-3 px-6 rounded-sm shadow-lg hover:bg-green-600 transition-all duration-300">Call Us:+27683897638</a>
               </div>
             </div>
           </SwiperSlide>
