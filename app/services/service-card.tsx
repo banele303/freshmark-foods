@@ -26,24 +26,29 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
     >
       <Card className="overflow-hidden">
         <div className={`flex flex-col ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
-          <div className="md:w-1/2">
+          
+          <div className="md:w-1/2 p-2">
+            <CardHeader>
+              <div className="flex items-center mb-4">
+                <service.icon className="w-8 h-8 text-purple-500 mr-2" />
+                <CardTitle className="text-[17px] md:text-2xl font-bold">{service.title}</CardTitle>
+              </div>
+            </CardHeader>
+            <CardContent>
+
+
+
+              
+            <div className="md:w-1/2 p-4 border rounded-lg shadow">
             <motion.img
               src={service.image}
               alt={service.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-lg mb-4"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             />
           </div>
-          <div className="md:w-1/2 p-6">
-            <CardHeader>
-              <div className="flex items-center mb-4">
-                <service.icon className="w-8 h-8 text-purple-500 mr-2" />
-                <CardTitle className="text-2xl font-bold">{service.title}</CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <CardDescription className="text-gray-600">{service.description}</CardDescription>
+              <CardDescription className="text-gray-600 text-[17px] pt-3">{service.description}</CardDescription>
             </CardContent>
           </div>
         </div>

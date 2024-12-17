@@ -13,13 +13,13 @@ const slides = [
     id: 1,
     title: "Welcome to FreshMark Foods",
     content: "Expert ingredients solutions for diverse industries in South Africa.",
-    image: "/images/bv1.png"
+    image: "/img/upfood.png"
   },
   {
     id: 2,
     title: "Our Expertise",
     content: "Your ideal partner in developing the future of food",
-    image: "/images/juice.png"
+    image: "/img/ups2.jpeg"
   },
 
  
@@ -37,10 +37,10 @@ const HeroSlider = () => {
   }, [])
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative  overflow-hidden">
       <div className="absolute top-0 left-0 w-full py-6 px-10 bg-gradient-to-r from-blue-900  to-blue-600 text-white text-center z-50">
-        <h1 className="text-[22px] md:text-5xl font-extrabold">Best Products at Fresh Mark </h1>
-        <p className="mt-2 text-[16px] md:text-2xl font-light">Your Trusted Partner in Building Wealth </p>
+        <h1 className="text-[19px] md:text-5xl font-extrabold">Best Products at Fresh Mark </h1>
+        <p className="mt-2 text-[16px] md:text-2xl font-light">Your Trusted Partner in Food</p>
       </div>
       
       <Swiper
@@ -58,7 +58,7 @@ const HeroSlider = () => {
           },
         }}
         modules={[EffectFade, Autoplay, Pagination]}
-        className="h-full w-full"
+        className=""
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}> 

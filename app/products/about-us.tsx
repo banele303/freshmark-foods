@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 
 export default function AboutSection() {
   return (
-    <section className="pb-20 pt-5 px-4 bg-gray-50">
+    <section className="py-10  px-4 bg-gray-50">
       <div className="max-w-5xl mx-auto text-center">
         <motion.h2 
-          className="text-4xl font-bold mb-8"
+          className="text-2xl pt-[2rem] md:text-4xl font-bold mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}

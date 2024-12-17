@@ -2,14 +2,14 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">About Ingredion</h3>
+            <h3 className="text-lg font-semibold mb-4">About freshMark Foods</h3>
             <ul className="space-y-2">
               <li><a href="#" className="hover:text-blue-300">Company Overview</a></li>
               <li><a href="#" className="hover:text-blue-300">Leadership Team</a></li>
               <li><a href="#" className="hover:text-blue-300">Careers</a></li>
-              <li><a href="#" className="hover:text-blue-300">Investor Relations</a></li>
+          
             </ul>
           </div>
           <div>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Ingredion Incorporated. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} freshMark Foods Incorporated. All rights reserved.</p>
         </div>
       </div>
     </footer>

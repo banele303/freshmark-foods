@@ -7,7 +7,7 @@ import Image from 'next/image'
 import ContactButtons from "./ui/contact-buttons"
 import { motion, useInView } from "framer-motion"
 import LearnMoreLink from "./ui/learn-more"
-import { useRef } from 'react'
+
 
 const listItems = [
     {
@@ -167,9 +167,7 @@ export default function FeaturedProducts() {
                                     <Image src={item.image} alt={item.title} width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
                                     <p className='pt-4'>{item.description}</p>
                                     <div className="mt-1 items-start flex justify-start ">
-                                        <button className="bg-slate-300 text-green-600 px-4 py-1 rounded-md hover:bg-blue-700 transition duration-300 text-[15px]">
-                                            Learn More
-                                        </button>
+                                       
                                     </div>
                                 </CardContent>
                             </AnimatedCard>
