@@ -11,7 +11,7 @@ const jobCategories = [
 ]
 
 const CareerOpportunities = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null)
+  const [selectedCategory, ] = useState(null)
 
   return (
     <section className="py-16 bg-blue-50">
