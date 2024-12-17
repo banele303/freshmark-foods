@@ -35,7 +35,7 @@ const ResearchDevelopment = () => {
               key={area.title}
               className="bg-white p-6 rounded-lg shadow-md cursor-pointer"
               whileHover={{ scale: 1.03 }}
-              onClick={() => setExpandedIndex(expandedIndex === index ? null : index)}
+              
             >
               <h3 className="text-xl font-semibold mb-2">{area.title}</h3>
               <motion.p
